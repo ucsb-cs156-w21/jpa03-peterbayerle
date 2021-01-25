@@ -1,35 +1,18 @@
-# STARTER-lab03
+# jpa03-peterbayerle
 
+Repo: https://github.com/ucsb-cs156-w21/jpa03-peterbayerle
 
-* TODO: Change the title of this README 
-  in the text `# STARTER-jpa03` above
-  to match the name of your repo, i. e., `jpa03-yourgithubid`, then delete
-  this TODO item.
-
-* TODO: Correct the links to repo below, 
-  then delete this TODO.  Replace it with 
-  a link to your repo, e.g. 
-  https://github.com/ucsb-cs156-w21/jpa03-cgaucho
-
-Repo: https://ucsb-cs156-w21/STARTER-jpa03
-
-* TODO: Correct the links to app on Heroku below, 
-  then delete this TODO.  Replace it with 
-  a link to your running app on Heroku, e.g.
-  https://jpa03-cgaucho.herokuapp.com
-
-
-On Heroku: https://jpa03-cgaucho.herokuapp.com
+On Heroku: https://jpa03-pbayerle.herokuapp.com
 
 * TODO: Correct the links to codecov report below
-  then delete this TODO.  Replace it with 
+  then delete this TODO.  Replace it with
   a link to your codecov report.  Fix the URLs in the codecov
   badge markup below as well so that the badge links to your
   correct codecov report.
 
-On Codecov: https://codecov.io/gh/ucsb-cs156-w21/jpa03-cgaucho
+On Codecov: https://codecov.io/gh/ucsb-cs156-w21/jpa03-peterbayerle/
 
-[![codecov](https://codecov.io/gh/ucsb-cs156-w21/jpa03-cgaucho/branch/main/graph/badge.svg)](https://codecov.io/gh/ucsb-cs156-w21/jpa03-cgaucho)
+[![codecov](https://codecov.io/gh/ucsb-cs156-w21/jpa03-cgaucho/branch/main/graph/badge.svg)](https://codecov.io/gh/ucsb-cs156-w21/jpa03-peterbayerle/)
 
 
 ## Integrations
@@ -50,7 +33,7 @@ services that require configuration
 * Google (for authentication)
 * A postgres database provisioned on Heroku
 
-All of the setup steps for running the app on localhost and Heroku are described in these  file: 
+All of the setup steps for running the app on localhost and Heroku are described in these  file:
 * [./docs/SETUP-FULL.md](./docs/SETUP-FULL.md) if it is your first time setting up a Spring/React app with Auth0 and Google
 * [./docs/SETUP-QUICKSTART.md](./docs/SETUP-QUICKSTART.md) if you've done these steps before.
 
@@ -63,7 +46,7 @@ This file also describes the setup for Codecov
 
 ## Property file values
 
-This section serves as a quick reference for values found in these files: 
+This section serves as a quick reference for values found in these files:
 * [`application.properties`](./src/main/resources/application.properties)
 * [`secrets-localhost.properties`](./secrets-localhost.properties.SAMPLE)
 * [`secrets-heroku.properties`](./secrets-heroku.properties.SAMPLE)
@@ -84,4 +67,3 @@ This section serves as a quick reference for values found in these files:
 | `spring.datasource.username`                                      | Yes          | Should always be `${JDBC_DATABASE_USERNAME}`                              |
 | `spring.datasource.password`                                      | Yes          | Should always be `${JDBC_DATABASE_PASSWORD}`                              |
 | `spring.jpa.hibernate.ddl-auto`                                   | Yes          | Should always be `update`                                                 |
-
